@@ -43,7 +43,7 @@ function App(){
           </nav>
           <div className="text-start p-6 md:p-10" >
             <h2 className=" text-center text-3xl md:text-5xl py-2 text-blue-700 font-medium  md:text-6xl"> Manü Web </h2>
-            <h3 className={`text-lg md:text-2xl py-2 ${darkMode ? "text-gray-700" : "text-gray-400"} `}>Developer and Community Manager</h3>
+            <h3 className={`text-center text-lg md:text-2xl py-2 ${darkMode ? "text-gray-700" : "text-gray-400"} `}>Developer and Community Manager</h3>
             <p className={`text-sm md:text-base md:w-3/4 lg:w-1/2 mx-auto px-2 py-3 md:px-4 md:py-5 ${darkMode ? "text-gray-800" : "text-white"}`}>
               I am a university student in technology and a programming apprentice since 2019.
               I am passionate about the world of technology, especially cybersecurity, blockchain, and data management.
