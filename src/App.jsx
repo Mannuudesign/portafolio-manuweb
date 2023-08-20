@@ -18,7 +18,7 @@ function App(){
       <main className='px-4 md:px-10 lg:px-16 xl:px-20'>
         <section className=' min-h-screen'>
           <nav className='py-6 md:py-10 lg:py-12 flex justify-between items-center'>
-            <img  className="h-12" src="/icon3.png" alt="logo" />
+            <img  className="h-12" src="icon3.png" alt="logo" />
             <ul className='flex items-center space-x-8'>
               <li>
                 {darkMode ? (
@@ -102,7 +102,7 @@ function App(){
                and identify opportunities to improve the company's online presence</p>
             </div>
             <div className={`text-center shadow-lg  text-start p-10 rounded-xl my-10 1 ${darkMode ? "bg-white":""  }`}>
-              <img  className="h-100 w-100" src="/desarrolloweb.png" />
+              <img  className="h-100 w-100" src="desarrolloweb.png" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Web Developer
               </h3>
@@ -119,7 +119,7 @@ function App(){
               
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 ">
-              <img className="h-100 w-100" src="/hacker.png" />
+              <img className="h-100 w-100" src="hacker.png" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Website Security
               </h3>
@@ -149,7 +149,7 @@ function App(){
         <div  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-4xl mx-auto">
          <div>
            <h3 className=" text-center text-lg font-semibold mb-2">Jeep web</h3>
-           <img  src="/jeep.png" alt="jeep web design" className="w-full h-auto mx-auto square-image"/>
+           <img  src="jeep.png" alt="jeep web design" className="w-full h-auto mx-auto square-image"/>
            <div className="mt-2 flex flex-col items-center">
             <a href="http://github.com/Mannuudesign" target="_blank" rel="noopener noreferrer" className="mt-2 inline-block bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600">GO</a>
            </div>
