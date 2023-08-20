@@ -41,8 +41,8 @@ function App(){
             </ul>
                 
           </nav>
-          <div className="text-center p-6 md:p-10" >
-            <h2 className="text-3xl md:text-5xl py-2 text-blue-700 font-medium  md:text-6xl"> Manü Web </h2>
+          <div className="text-start p-6 md:p-10" >
+            <h2 className=" text-center text-3xl md:text-5xl py-2 text-blue-700 font-medium  md:text-6xl"> Manü Web </h2>
             <h3 className={`text-lg md:text-2xl py-2 ${darkMode ? "text-gray-700" : "text-gray-400"} `}>Developer and Community Manager</h3>
             <p className={`text-sm md:text-base md:w-3/4 lg:w-1/2 mx-auto px-2 py-3 md:px-4 md:py-5 ${darkMode ? "text-gray-800" : "text-white"}`}>
               I am a university student in technology and a programming apprentice since 2019.
@@ -70,7 +70,7 @@ function App(){
        <section className={`py-10 ${darkMode ? "bg-white text-gray-900" : "bg-gray-540 text-white"}`}>
          <div className="mx-auto text-center max-w-4xl">
             <h3 className={`text-2xl md:text-4xl py-4 ${darkMode ? "text-blue-700" : "text-blue-400"}`}>Services I offer:</h3>
-            <p className={`text-base md:text-md py-2 leading-6 md:w-3/4 lg:w-1/2 mx-auto ${darkMode ? "text-gray-800" : "text-white"}`}>
+            <p className={` text-start text-base md:text-md py-2 leading-6 md:w-3/4 lg:w-1/2 mx-auto ${darkMode ? "text-gray-800" : "text-white"}`}>
              I am excited to put my skills at the service of new challenges and projects. In my portfolio, you will find samples of my previous work, which reflect my dedication and passion for creating innovative and effective digital solutions. If you are looking for a versatile, committed, and proactive professional, do not
              hesitate to contact me to discuss how I can contribute to the success of your next project.
             
@@ -139,7 +139,7 @@ function App(){
        <section className={`py-10 ${darkMode ? "bg-white text-gray-900" : "bg-gray-540 text-white"}`}>
         <div className="mx-auto text-center max-w-4xl">
           <h3 className={`text-2xl md:text-4xl py-4 ${darkMode ? "text-blue-700" : "text-blue-400"}`}>Projects:</h3>
-          <p className={`text-md md:text-lg py-2 md:py-4 leading-8 md:w-3/4 lg:w-1/2 mx-auto ${darkMode ? "text-gray-800" : "text-white"}`}>
+          <p className={` text-start text-md md:text-lg py-2 md:py-4 leading-8 md:w-3/4 lg:w-1/2 mx-auto ${darkMode ? "text-gray-800" : "text-white"}`}>
            As a freelance community manager and aspiring developer, I focus on managing 
            online communities and leveraging social media to drive engagement and growth. Additionally, I collaborate on personal projects to create captivating digital experiences for businesses and consumers, continuously improving my skills 
            and delivering impactful solutions. Below, you'll find some of my projects.
