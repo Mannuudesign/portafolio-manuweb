@@ -14,7 +14,7 @@ function App(){
        setDarkMode((prevMode) => !prevMode);}
 
   return(
-    <div className={`text-start  ${darkMode ? "bg-white text-gray-900" : "bg-gray-540 text-white"} flex-1 ${darkMode ? "dark" : ""}`}>
+    <div className={` text-start  ${darkMode ? "bg-white text-gray-900" : "bg-gray-540 text-white"} flex-1 ${darkMode ? "dark" : ""}`}>
       <main className='px-4 md:px-10 lg:px-16 xl:px-20'>
         <section className=' min-h-screen'>
           <nav className='py-6 md:py-10 lg:py-12 flex justify-between items-center'>
