@@ -1,0 +1,37 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bg-stars-pattern {
+  background-image: url("/fondoes.jpeg")
+}
+@keyframes moveAstronaut {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.move-astronaut {
+  animation: moveAstronaut 2s infinite;
+}
+.square-image {
+  height:500px;
+  width: 800px;
+  
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+      background-color: #1a1a1a; /* Cambia este color al fondo oscuro que desees */
+    }
+    html.dark {
+      background-color: #ffffff; /* Cambia este color al fondo claro que desees */
+    }
+    /* Agrega aquí tus estilos específicos para el modo oscuro si los tienes */
+  }
